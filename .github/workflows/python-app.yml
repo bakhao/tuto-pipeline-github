@@ -21,3 +21,5 @@ jobs:
         run: echo "Welcome to my app"
       - name: Run main.py
         run: python main.py
+      - name: Run Tests
+        run: python -m unittest discover
